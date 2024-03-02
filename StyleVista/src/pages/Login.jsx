@@ -1,7 +1,3 @@
-// import React from "react";
-// import "./Login.css";
-
-// const Login = () => {
 import React, { useEffect } from "react";
 import "./Login.css";
 
@@ -88,6 +84,7 @@ const Login = () => {
             <div className="overlay-panel overlay-right">
               <h1>Hello, Friend!</h1>
               <p>Enter your personal details and start the journey with us</p>
+
               <button className="ghost" id="signUp">
                 Sign Up
               </button>
@@ -96,7 +93,7 @@ const Login = () => {
         </div>
       </div>
 
-      <footer>
+      {/* <footer>
         <p>
           Created with <i className="fa fa-heart"></i> by
           <a target="_blank" href="https://florin-pop.com">
@@ -111,7 +108,7 @@ const Login = () => {
           </a>
           .
         </p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
